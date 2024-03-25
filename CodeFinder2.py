@@ -9,4 +9,4 @@ name_results = soup.find("tbody")
 for child in name_results.children:
     print(child.get_text(" | ",strip = True))
     
-input("\n Press Enter to exit...")
+input("\nPress Enter to exit...")
